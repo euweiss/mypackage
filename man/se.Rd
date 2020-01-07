@@ -4,12 +4,10 @@
 \alias{se}
 \title{Calculate standard error}
 \usage{
-se(s, n)
+se(value)
 }
 \arguments{
-\item{s}{numeric value}
-
-\item{n}{numeric value (integer)}
+\item{value}{numeric vector}
 }
 \value{
 number
@@ -19,5 +17,5 @@ Returns the standard error
 from standard deviation and sample size
 }
 \examples{
-se(5,200)
+se(rnorm(20))
 }
