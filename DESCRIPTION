@@ -14,3 +14,4 @@ LazyData: true
 URL: https://github.com/euweiss/mypackage
 BugReports: https://github.com/euweiss/mypackage/issues
 RoxygenNote: 7.0.2
+Imports: ggplot2, magrittr, stats
